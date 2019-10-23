@@ -15,3 +15,7 @@
 Route::get('hello/{name?}',function($name='Everybody'){
     return'Hello,'.$name;
 });
+
+Route::get('/',function(){
+    return'welcome';
+});
